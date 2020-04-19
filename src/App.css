@@ -1,0 +1,109 @@
+/* Global styles*/
+.App {
+  text-align: center;
+}
+/* Apply a default color scheme */
+@media (prefers-color-scheme: no-preference) {
+  .App-header {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background-color: #282c34;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-header-control {
+    -webkit-app-region: no-drag;
+  }
+
+  .App-body {
+    -webkit-app-region: no-drag;
+    background-color: #282c34;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+}
+/* Apply a light color scheme */
+@media (prefers-color-scheme: light) {
+  .App-header {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background-color: #282c34;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-header-control {
+    -webkit-app-region: no-drag;
+  }
+
+  .App-body {
+    -webkit-app-region: no-drag;
+    background-color: #282c34;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+}
+/* Apply a dark color scheme */
+@media (prefers-color-scheme: dark) {
+  .App-header {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background-color: #282c34;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-header-control {
+    -webkit-app-region: no-drag;
+  }
+
+  .App-body {
+    -webkit-app-region: no-drag;
+    background-color: #282c34;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+}
