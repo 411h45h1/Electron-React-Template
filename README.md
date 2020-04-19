@@ -1,10 +1,9 @@
 ### cra-craco-electron-example
 ``` 
 Note from Ahmed 
-this template is an modified version found here
-https://github.com/wwlib/cra-craco-electron-example.   
+this template is an modified version found here.   
  ```   
-
+ https://github.com/wwlib/cra-craco-electron-example
 
 *cra-craco-electron-example* demonstrates how to set up a react project (using TypeScript) and build it for *both* the Web and as a standalone electron app.
 
